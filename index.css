@@ -1,6 +1,132 @@
-body{
-    background-color: rgb(202, 129, 129);
-    font-size: 20px;
+* {font-size: 20px;
+    margin:0;
+    padding: 0;
+    color: rgb(255, 255, 255);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    box-sizing: border-box;
+}
+
+body{height: 100%;
+    background-color:rgb(10, 5, 4);
+    background-image: url(https://i.imgur.com/b00514W.jpg);
+    background-repeat: no-repeat;
+    background-size: contain  ;
+}
+/*Contains of the cover page*/
+.navigationdiv {
+    background-color: rgb(129, 51, 51);
+    width: 100%;
+
+    
     
 }
-.name-head{font-size:  5rem;}
+.navigationdiv a{
+    text-decoration: none;
+    display: block;
+    padding: 14px 40px;
+    float: left;
+    text-align: center;
+    color: rgb(211, 134, 27);
+}
+.navigationdiv .paddingfora{padding-left: 18vw;}
+.emptydiv{height: 28.5vh;
+width: 100%;}
+.divabout{
+    width: 100%;
+    height: 50vh;
+    text-align:center;
+}
+   
+.myname{
+    font-size: 6em;
+    text-shadow: 0.3vw 0.5vw 0.5vw rgb(90, 30, 30);
+    color: rgb(211, 134, 27);
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    }
+.divabout p{color:rgb(194, 173, 140);
+text-align: center;}
+.divabout strong{color:rgb(161, 139, 106);}
+.navigation li{float: left;
+}
+.emptydiv1{width: 100%; height: 18vh;}
+a:hover{background-color: rgb(190, 87, 17);
+}
+@media screen and (max-width: 700px) {
+.navigationdiv a{
+float: none;
+width: 100%;
+padding: 0;
+border-bottom: 1px solid black;}
+.navigationdiv .paddingfora{padding-left: 0;}
+.emptydiv{height: 7vh;}
+.emptydiv1{height: 16vh;}
+.myname{font-size: 3em}
+*{font-size: 21px;}
+}
+
+/*section about me and my philosophy*/
+.maincontainer{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+}
+.maincontainer > div{
+    width: 300px;
+    margin: 20px;
+    height: inherit;
+    }
+.maincontainer div p
+{width: inherit;
+}
+.image{max-width: 100%;
+border-radius: 50%;}
+.class{max-width: 100%;}
+    
+
+.divphilosophy{text-align: center;
+     margin: 0 10vw 0 10vw;
+    }
+/*section for my likes*/
+
+.divlikes{
+    display: flex;
+    flex-wrap: wrap;
+
+
+    
+}
+.divlikes2and4{display: flex;
+flex-wrap: wrap-reverse;}
+
+.divlikes> div{
+    width: 700px;
+    margin: 0 10px 0 40px;
+}
+.divlikes2and4 > div{
+    width: 700px;
+    margin: 0 10px 0 40px;
+}
+
+
+.divlikes img{
+    opacity: 0.5;
+    max-width: 100%;}
+.divlikes2and4 img{opacity: 0.5;
+max-width: 100%;}
+.divlikes img:hover{opacity: 1;}
+
+
+.thelastul {text-align:center;
+    
+
+
+}
+.bigfont{
+    font-size:3em;
+    color: rgb(211, 181, 136);
+    text-shadow: 0.23vw 0.2vw 0.3vw rgb(90, 30, 30);
+    text-align: center;
+}
