@@ -16,19 +16,18 @@ body{height: 100%;
 .navigationdiv {
     background-color: rgb(129, 51, 51);
     width: 100%;
+    text-align: center;
 
     
     
 }
 .navigationdiv a{
     text-decoration: none;
-    display: block;
+    display: inline-block;
     padding: 14px 40px;
-    float: left;
     text-align: center;
     color: rgb(211, 134, 27);
 }
-.navigationdiv .paddingfora{padding-left: 18vw;}
 .emptydiv{height: 28.5vh;
 width: 100%;}
 .divabout{
@@ -48,8 +47,6 @@ width: 100%;}
 .divabout p{color:rgb(194, 173, 140);
 text-align: center;}
 .divabout strong{color:rgb(161, 139, 106);}
-.navigation li{float: left;
-}
 .emptydiv1{width: 100%; height: 18vh;}
 a:hover{background-color: rgb(190, 87, 17);
 }
